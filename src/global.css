@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+}
+
+:root {
+  --text: hsl(30, 10%, 96%);
+  --background: hsl(206, 100%, 6%);
+  --primary: hsl(120, 26%, 76%);
+  --secondary: hsl(205, 97%, 12%);
+  --accent: hsl(180, 22%, 46%);}
+}
