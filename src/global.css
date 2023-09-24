@@ -1,11 +1,16 @@
 body {
 	margin: 0;
+	color: var(--text);
+	background: var(--background);
 }
 
 :root {
-  --text: hsl(30, 10%, 96%);
-  --background: hsl(206, 100%, 6%);
-  --primary: hsl(120, 26%, 76%);
-  --secondary: hsl(205, 97%, 12%);
-  --accent: hsl(180, 22%, 46%);}
+	--text: hsl(57, 41%, 90%);
+	--background: hsl(238, 78%, 9%);
+	--primary: hsl(58, 77%, 74%);
+	--secondary: hsl(270, 57%, 14%);
+	--accent: hsl(208, 42%, 55%);
+
+	--background-shadow: hsla(238, 78%, 5%, 0.8);
+	--background-light: hsl(238, 38%, 19%);
 }
