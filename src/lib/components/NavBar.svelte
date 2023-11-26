@@ -32,8 +32,8 @@
 	}
 	input {
 		border-radius: 8px;
-		background: var(--background-light);
-		box-shadow: var(--background-shadow) 3px 2px 7px;
+		background: var(--text);
+		color: var(--background); /* colors are flipped for the search bar */
 		border: none;
 		padding: 9px;
 		min-width: 18em;
