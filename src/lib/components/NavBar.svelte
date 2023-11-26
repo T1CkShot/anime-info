@@ -5,7 +5,7 @@
 
 <nav>
 	<div class="main">
-		<img src="../../../static/favicon.svg" alt="Logo" />
+		<img alt="Logo" src="https://placehold.co/500x500/black/red?text=A" />
 		<div class="search">
 			<input type="text" name="searchbar" placeholder="Search..." />
 			<Button value="Search" />
@@ -18,19 +18,12 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	@media (max-width: 680px) {
-		.search {
-			width: 40%;
-			justify-content: flex-end;
-		}
-	}
 	.search {
 		margin: 15px 8px;
 		display: flex;
 		align-items: center;
 		gap: 12px;
 	}
-
 	img {
 		width: auto;
 		height: 50px;
@@ -41,17 +34,24 @@
 		color: var(--background); /* colors are flipped for the search bar */
 		border: none;
 		padding: 9px;
-		min-width: 18em;
+		min-width: 4em;
 		color: var(--text);
 	}
-
+	@media (max-width: 355px) {
+		.main {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 	nav {
+		display: sticky;
 		position: fixed;
 		width: 100%;
 		top: 0px;
 		z-index: 3;
 		padding: 14px;
 		box-sizing: border-box;
-		background-color: var(--background);
+		background-color: hsla(var(--background), 0);
 	}
 </style>
