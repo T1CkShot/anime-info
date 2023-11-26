@@ -11,6 +11,11 @@ h1 {
   font-family: 'Montserrat', helvetica;
 }
 
+.container {
+  width: 100%;
+  max-width: 1700px;
+}
+
 :root {
   --text: hsl(0, 20%, 98%);
   --background: hsl(0, 20%, 1%);
