@@ -18,7 +18,12 @@
 		display: flex;
 		justify-content: space-between;
 	}
-
+	@media (max-width: 680px) {
+		.search {
+			width: 40%;
+			justify-content: flex-end;
+		}
+	}
 	.search {
 		margin: 15px 8px;
 		display: flex;
