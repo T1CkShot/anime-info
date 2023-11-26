@@ -2,16 +2,16 @@
 	import '../../global.css';
 	import Button from './Button.svelte';
 
-	let scrollLength = 0;
+	let scroll = 0;
 </script>
 
-<svelte:window bind:scrollY={scrollLength} />
+<svelte:window bind:scrollY={scroll} />
 
-<nav class:nav-scroll={scrollLength > 60}>
+<nav class:navScroll={scroll > 60}>
 	<div class="main">
 		<div class="logo">
 			<img alt="Logo" src="https://placehold.co/500x500/black/red?text=A" />
-			<h3 class="title">Awkward Anime Website</h3>
+			<h3>Awkward Anime Website</h3>
 		</div>
 		<div class="search">
 			<input type="text" name="searchbar" placeholder="Search..." />
@@ -35,6 +35,7 @@
 	}
 	.logo {
 		display: flex;
+		align-items: center;
 		gap: 30px;
 	}
 	img {
@@ -42,12 +43,12 @@
 		height: 50px;
 	}
 	input {
+		width: 100%;
 		border-radius: 8px;
 		background: var(--text);
 		color: var(--background); /* colors are flipped for the search bar */
 		border: none;
 		padding: 9px;
-		width: 100%;
 		min-width: 4em;
 		color: var(--text);
 	}
@@ -67,9 +68,9 @@
 		padding: 14px;
 		box-sizing: border-box;
 		background-color: hsla(var(--background), 0);
-		transition: background-color 300ms;
+		transition: background-color 400ms;
 	}
-	.nav-scroll {
+	.navScroll {
 		background-color: var(--background);
 	}
 </style>
