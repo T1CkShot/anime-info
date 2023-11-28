@@ -9,7 +9,15 @@
 </script>
 
 <div>
-	<a href={aherf}><input class={size} class:secondary {type} {value} /></a>
+	<a href={aherf}
+		><input
+			class={size}
+			class:secondary={secondary == true}
+			{type}
+			{value}
+			on:click={() => (secondary = true)}
+		/></a
+	>
 </div>
 
 <style>
@@ -22,6 +30,10 @@
 		color: var(--text);
 		border: none;
 		border-radius: 8px;
+		transition: box-shadow 200ms;
+	}
+	input:hover {
+		box-shadow: 1px 1px 5px;
 	}
 	.secondary {
 		background: var(--text);
