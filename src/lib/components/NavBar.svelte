@@ -15,7 +15,7 @@
 		</div>
 		<div class="search">
 			<input type="text" name="searchbar" placeholder="Search..." />
-			<Button value="Search" />
+			<Button value="Search" size="small" />
 		</div>
 	</div>
 </nav>
