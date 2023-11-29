@@ -15,7 +15,8 @@
 
 <style>
 	.card {
-		max-width: 200px;
+		height: auto;
+		width: 200px;
 	}
 	.rating {
 		color: var(--primary);
