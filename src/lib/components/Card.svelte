@@ -1,9 +1,8 @@
 <script>
 	import '../../global.css';
-	export let title = 'Attack on Titan';
-	export let cover =
-		'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-C6FPmWm59CyP.jpg';
-	export let rating = 84;
+	export let title;
+	export let cover;
+	export let rating;
 </script>
 
 <div class="card">
