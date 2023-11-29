@@ -10,10 +10,7 @@ export const load = async (loadEvent) => {
       }
       averageScore
       coverImage {
-        extraLarge
         large
-        medium
-        color
       }
     }
   }
