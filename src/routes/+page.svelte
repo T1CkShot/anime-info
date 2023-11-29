@@ -1,6 +1,11 @@
 <script>
 	import '../global.css';
 	import Button from '../lib/components/Button.svelte';
+	import Card from '../lib/components/Card.svelte';
+	import More from '../lib/components/More.svelte';
+
+	export let data;
+	const { animeData } = data;
 </script>
 
 <div class="main">
@@ -21,11 +26,30 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<h1 style="margin: 70px 0px 30px 0px">Popular</h1>
+		<div class="horizontal">
+			<div class="car">
+				{#each animeData.media as anime}
+					<Card
+						title={anime.title.english}
+						rating={anime.averageScore}
+						cover={anime.coverImage.large}
+					/>
+				{/each}
+				<More href="/popular" />
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
 	.main {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 	.hero-section {
 		display: flex;
@@ -48,5 +72,15 @@
 	}
 	.hero-section a:hover {
 		color: var(--primary);
+	}
+	.car {
+		width: fit-content;
+		display: flex;
+		gap: 30px;
+	}
+	.horizontal {
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
 	}
 </style>
