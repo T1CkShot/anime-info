@@ -81,6 +81,5 @@
 	.horizontal {
 		width: 100%;
 		overflow-x: scroll;
-		overflow-y: hidden;
 	}
 </style>
