@@ -30,7 +30,7 @@
 		<h1 style="margin: 70px 0px 30px 0px">Popular</h1>
 		<div class="horizontal">
 			<div class="car">
-				{#each animeData.media as anime}
+				{#each animeData.media as anime (anime.id)}
 					<Card
 						title={anime.title.english}
 						rating={anime.averageScore}
