@@ -17,6 +17,7 @@
 	.card {
 		height: auto;
 		width: 200px;
+		overflow-y: visible;
 	}
 	.rating {
 		color: var(--primary);
@@ -27,11 +28,15 @@
 		width: 100%;
 		height: auto;
 		border-radius: 12px;
+		transition: transform 200ms;
 	}
 	p {
 		font-family: 'Roboto';
 		font-weight: 400;
 		font-size: 1.2em;
 		margin: 5px;
+	}
+	.card:hover img {
+		transform: translateY(-10px);
 	}
 </style>
