@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
 	margin: 0;
 	color: var(--text);
 	background: var(--background);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', helvetica;
+}
+
+.container {
+  width: 100%;
+  max-width: 1700px;
+  margin: 0px 20px 0px 20px;
 }
 
 :root {
-	--text: hsl(57, 41%, 90%);
-	--background: hsl(238, 78%, 9%);
-	--primary: hsl(58, 77%, 74%);
-	--secondary: hsl(270, 57%, 14%);
-	--accent: hsl(208, 42%, 55%);
-
-	--background-shadow: hsla(238, 78%, 5%, 0.8);
-	--background-light: hsl(238, 38%, 19%);
+  --text: hsl(0, 20%, 98%);
+  --background: hsl(0, 20%, 1%);
+  --primary: hsl(0, 100%, 34%);
+  --secondary: hsl(0, 31%, 12%);
+  --accent: hsl(180, 30%, 52%);
 }
