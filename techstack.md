@@ -3,7 +3,6 @@
 ## Tech Stack
 T1CkShot/anime-info is built on the following main stack:
 
-
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [ESLint](http://eslint.org/) – Code Review
 - [Svelte](https://svelte.technology/) – Javascript UI Libraries
@@ -18,7 +17,6 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 T1CkShot/anime-info is built on the following main stack:
 
-
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/6113/7exmJEg4_400x400.png' alt='Svelte'/> [Svelte](https://svelte.technology/) – Javascript UI Libraries
@@ -28,7 +26,6 @@ T1CkShot/anime-info is built on the following main stack:
 Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet with images End ---&gt;
-
 -->
 <div align="center">
 
@@ -36,7 +33,6 @@ Full tech stack [here](/techstack.md)
 ![](https://img.stackshare.io/repo.svg "repo") [T1CkShot/anime-info](https://github.com/T1CkShot/anime-info)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |11<br/>Tools used|12/14/23 <br/>Report generated|
-
 |------|------|
 </div>
 
@@ -109,7 +105,6 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-
   <img width='36' height='36' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png' alt='npm'>
   <br>
   <sub><a href="https://www.npmjs.com/">npm</a></sub>
@@ -142,7 +137,6 @@ Full tech stack [here](/techstack.md)
 |:------|:------|:------|:------|:------|:------|
 |[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v8.5.0|09/01/23|T1CkShot |MIT|N/A|
 |[vite](https://www.npmjs.com/vite)|v4.4.2|09/01/23|T1CkShot |N/A|[CVE-2023-49293](https://github.com/advisories/GHSA-92r3-m2mg-pj97) (Moderate)|
-
 
 <br/>
 <div align='center'>
