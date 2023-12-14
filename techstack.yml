@@ -1,8 +1,8 @@
 repo_name: T1CkShot/anime-info
-report_id: e77e63fc48f3bcbf5d91863fb0a554b0
+report_id: a621b6de176a8323536f863b821b6189
 repo_type: Public
-timestamp: '2023-12-14T10:30:04+00:00'
-requested_by: T1CkShot
+timestamp: '2023-12-14T12:58:49+00:00'
+requested_by: stack-file[bot]
 provider: github
 branch: main
 detected_tools_count: 11
